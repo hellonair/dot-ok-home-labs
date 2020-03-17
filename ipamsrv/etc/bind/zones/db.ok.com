@@ -14,11 +14,11 @@ $TTL	604800
 @	IN	AAAA	::1
 		IN	NS	ipamsrv.ok.com.
 ; Command Center ( 2 to 19 )
-maas1011	IN	A	192.168.86.11
-maas10011	IN	A	192.168.100.11
-maas20011	IN	A	192.168.200.11
-dummyone	IN	A	192.168.100.12
-dummytwo	IN	A	192.168.200.12
+ipamsrv		IN	A	192.168.86.11
+ipamsrvone	IN	A	192.168.100.11
+ipamsrvtwo	IN	A	192.168.200.11
+watcherone	IN	A	192.168.100.12
+watchertwo	IN	A	192.168.200.12
 ; VCF 
 vcfcb0		IN	A	192.168.100.20
 vcfesxi1	IN	A	192.168.100.21
