@@ -24,9 +24,9 @@ $TTL	604800
 24.100	IN      PTR     vcfesxi4.ok.com.
 25.100	IN      PTR     vcfesxi5.ok.com.
 26.100	IN      PTR     vcfesxi5.ok.com.
-44.100	IN      PTR     dc1vsan4.ok.com.
-45.100	IN      PTR     dc1vsan5.ok.com.
-46.100	IN      PTR     dc1vsan6.ok.com.
-47.100	IN      PTR     dc1vsan7.ok.com.
-48.100	IN      PTR     dc1vsan8.ok.com.
-49.100	IN      PTR     dc1vsan9.ok.com.
+51.100	IN      PTR     dc1vsan1.ok.com.
+52.100	IN      PTR     dc1vsan2.ok.com.
+53.100	IN      PTR     dc1vsan3.ok.com.
+54.100	IN      PTR     dc1vsan4.ok.com.
+55.100	IN      PTR     dc1vsan5.ok.com.
+56.100	IN      PTR     dc1vsan6.ok.com.
