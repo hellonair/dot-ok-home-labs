@@ -2,7 +2,7 @@
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	maas1011.ok.com. root.mas1011.ok.com. (
+@	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
 			     10		; Serial
 			 604800		; Refresh
 			  86400		; Retry
@@ -12,7 +12,7 @@ $TTL	604800
 @	IN	NS	localhost.
 @	IN	A	127.0.0.1
 @	IN	AAAA	::1
-		IN	NS	maas1011.ok.com.
+		IN	NS	ipamsrv.ok.com.
 ; Command Center ( 2 to 19 )
 maas1011	IN	A	192.168.86.11
 maas10011	IN	A	192.168.100.11
@@ -32,9 +32,9 @@ dc1vcsa1	IN	A	192.168.100.40
 dc1esxi1	IN	A	192.168.100.41
 dc1esxi2	IN	A	192.168.100.42
 ; vSAN cluster
-dc1vsan4	IN	A	192.168.100.44
-dc1vsan5	IN	A	192.168.100.45
-dc1vsan6	IN	A	192.168.100.46
-dc1vsan7	IN	A	192.168.100.47
-dc1vsan8	IN	A	192.168.100.48
-dc1vsan9	IN	A	192.168.100.49
+dc1vsan1	IN	A	192.168.100.51
+dc1vsan2	IN	A	192.168.100.52
+dc1vsan3	IN	A	192.168.100.53
+dc1vsan4	IN	A	192.168.100.54
+dc1vsan5	IN	A	192.168.100.55
+dc1vsan6	IN	A	192.168.100.56
