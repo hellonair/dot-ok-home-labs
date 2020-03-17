@@ -1,0 +1,32 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	maas1011.ok.com. root.maas1011.ok.com. (
+			     10		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	localhost.
+@	IN 	A	127.0.0.1
+@	IN	AAAA	::1
+	IN	NS	maas1011.ok.com.
+11.86	IN      PTR     maas1011.ok.com.
+11.100	IN      PTR     maas10011.ok.com.
+12.100	IN      PTR     dummyone.ok.com.
+12.200	IN      PTR     dummytwo.ok.com.
+20.100	IN      PTR     vcfcb0.ok.com.
+21.100	IN      PTR     vcfesxi1.ok.com.
+22.100	IN      PTR     vcfesxi2.ok.com.
+23.100	IN      PTR     vcfesxi3.ok.com.
+24.100	IN      PTR     vcfesxi4.ok.com.
+25.100	IN      PTR     vcfesxi5.ok.com.
+26.100	IN      PTR     vcfesxi5.ok.com.
+44.100	IN      PTR     dc1vsan4.ok.com.
+45.100	IN      PTR     dc1vsan5.ok.com.
+46.100	IN      PTR     dc1vsan6.ok.com.
+47.100	IN      PTR     dc1vsan7.ok.com.
+48.100	IN      PTR     dc1vsan8.ok.com.
+49.100	IN      PTR     dc1vsan9.ok.com.
