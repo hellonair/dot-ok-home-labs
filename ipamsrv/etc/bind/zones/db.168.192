@@ -2,7 +2,7 @@
 ; BIND reverse data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	maas1011.ok.com. root.maas1011.ok.com. (
+@	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
 			     10		; Serial
 			 604800		; Refresh
 			  86400		; Retry
@@ -12,11 +12,11 @@ $TTL	604800
 @	IN	NS	localhost.
 @	IN 	A	127.0.0.1
 @	IN	AAAA	::1
-	IN	NS	maas1011.ok.com.
-11.86	IN      PTR     maas1011.ok.com.
-11.100	IN      PTR     maas10011.ok.com.
-12.100	IN      PTR     dummyone.ok.com.
-12.200	IN      PTR     dummytwo.ok.com.
+	IN	NS	ipamsrv.ok.com.
+11.86	IN      PTR     ipamsrv.ok.com.
+11.100	IN      PTR     ipamsrv.ok.com.
+12.100	IN      PTR     watcherone.ok.com.
+12.200	IN      PTR     watchertwo.ok.com.
 20.100	IN      PTR     vcfcb0.ok.com.
 21.100	IN      PTR     vcfesxi1.ok.com.
 22.100	IN      PTR     vcfesxi2.ok.com.
