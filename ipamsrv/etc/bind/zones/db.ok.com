@@ -20,17 +20,19 @@ ipamsrvtwo	IN	A	192.168.200.11
 watcherone	IN	A	192.168.100.12
 watchertwo	IN	A	192.168.200.12
 ; VCF 
-vcfcb0		IN	A	192.168.100.20
-vcfesxi21	IN	A	192.168.100.21
-vcfesxi22	IN	A	192.168.100.22
-vcfesxi23	IN	A	192.168.100.23
-vcfesxi24	IN	A	192.168.100.24
-vcfesxi25	IN	A	192.168.100.25
-vcfesxi26	IN	A	192.168.100.26
+vcf1cb20	IN	A	192.168.100.20
+vcf1esxi21	IN	A	192.168.100.21
+vcf1esxi22	IN	A	192.168.100.22
+vcf1esxi23	IN	A	192.168.100.23
+vcf1esxi24	IN	A	192.168.100.24
+vcf1esxi25	IN	A	192.168.100.25
+vcf1esxi26	IN	A	192.168.100.26
 ; General compute cluster
 dc1vcsa40	IN	A	192.168.100.40
 dc1esxi41	IN	A	192.168.100.41
 dc1esxi42	IN	A	192.168.100.42
+dc1esxi43	IN	A	192.168.100.43
+dc1esxi44	IN	A	192.168.100.44
 ; vSAN cluster
 dc1vsan51	IN	A	192.168.100.51
 dc1vsan52	IN	A	192.168.100.52
