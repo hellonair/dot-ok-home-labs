@@ -21,3 +21,5 @@ service bind9 restart
 curl https://raw.githubusercontent.com/hellonair/dot-ok-home-labs/master/ipamsrv/etc/ntp.conf -o /etc/ntp.conf
 ufw allow from any to any port 123 proto udp
 service ntp restart
+curl https://raw.githubusercontent.com/hellonair/dot-ok-home-labs/master/ipamsrv/root/gitsync.sh -o /root/gitsync.sh
+crontab -l | { cat; echo "0 1 * * * /root/gitsync.sh"; } | crontab -
