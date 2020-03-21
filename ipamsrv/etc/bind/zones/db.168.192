@@ -2,7 +2,7 @@
 ; BIND reverse data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
+@	IN	SOA	ipamsrv.ok. root.ipamsrv.ok. (
 			     10		; Serial
 			 604800		; Refresh
 			  86400		; Retry
@@ -12,26 +12,26 @@ $TTL	604800
 @	IN	NS	localhost.
 @	IN 	A	127.0.0.1
 @	IN	AAAA	::1
-	IN	NS	ipamsrv.ok.com.
-11.86	IN      PTR     ipamsrv.ok.com.
-11.100	IN      PTR     ipamsrv.ok.com.
-12.100	IN      PTR     watcherone.ok.com.
-12.200	IN      PTR     watchertwo.ok.com.
-20.100	IN      PTR     vcf1cb20.ok.com.
-21.100	IN      PTR     vcf1esxi21.ok.com.
-22.100	IN      PTR     vcf1esxi22.ok.com.
-23.100	IN      PTR     vcf1esxi23.ok.com.
-24.100	IN      PTR     vcf1esxi24.ok.com.
-25.100	IN      PTR     vcf1esxi25.ok.com.
-26.100	IN      PTR     vcf1esxi26.ok.com.
-40.100	IN	PTR	dc1vcsa40.ok.com
-41.100	IN	PTR	dc1esxi41.ok.com
-42.100	IN	PTR	dc1esxi42.ok.com
-43.100	IN	PTR	dc1esxi43.ok.com
-44.100	IN	PTR	dc1esxi44.ok.com
-51.100	IN      PTR     dc1vsan51.ok.com.
-52.100	IN      PTR     dc1vsan52.ok.com.
-53.100	IN      PTR     dc1vsan53.ok.com.
-54.100	IN      PTR     dc1vsan54.ok.com.
-55.100	IN      PTR     dc1vsan55.ok.com.
-56.100	IN      PTR     dc1vsan56.ok.com.
+	IN	NS	ipamsrv.ok.
+11.86	IN      PTR     ipamsrv.ok.
+11.100	IN      PTR     ipamsrv.ok.
+12.100	IN      PTR     watcherone.ok.
+12.200	IN      PTR     watchertwo.ok.
+20.100	IN      PTR     vcf1cb20.ok.
+21.100	IN      PTR     vcf1esxi21.ok.
+22.100	IN      PTR     vcf1esxi22.ok.
+23.100	IN      PTR     vcf1esxi23.ok.
+24.100	IN      PTR     vcf1esxi24.ok.
+25.100	IN      PTR     vcf1esxi25.ok.
+26.100	IN      PTR     vcf1esxi26.ok.
+40.100	IN	PTR	dc1vcsa40.ok.
+41.100	IN	PTR	dc1esxi41.ok.
+42.100	IN	PTR	dc1esxi42.ok.
+43.100	IN	PTR	dc1esxi43.ok.
+44.100	IN	PTR	dc1esxi44.ok.
+51.100	IN      PTR     dc1vsan51.ok.
+52.100	IN      PTR     dc1vsan52.ok.
+53.100	IN      PTR     dc1vsan53.ok.
+54.100	IN      PTR     dc1vsan54.ok.
+55.100	IN      PTR     dc1vsan55.ok.
+56.100	IN      PTR     dc1vsan56.ok.
