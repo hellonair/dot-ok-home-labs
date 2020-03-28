@@ -14,7 +14,11 @@ $TTL	604800
 @	IN	AAAA	::1
 	IN	NS	ipamsrv.ok.
 11.86	IN      PTR     ipamsrv.ok.
-11.100	IN      PTR     ipamsrv.ok.
+11.100	IN      PTR     ipamsrvone.ok.
+11.200	IN	PTR	ipamsrvtwo.ok.
+12.86	IN	PTR	freenas.ok.	
+12.100	IN	PTR	freenasone.ok.
+12.200	IN	PTR	freenastwo.ok.
 12.100	IN      PTR     watcherone.ok.
 12.200	IN      PTR     watchertwo.ok.
 20.100	IN      PTR     vcf1cb20.ok.
