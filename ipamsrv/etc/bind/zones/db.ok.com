@@ -43,3 +43,12 @@ dc1vsan53	IN	A	192.168.100.53
 dc1vsan54	IN	A	192.168.100.54
 dc1vsan55	IN	A	192.168.100.55
 dc1vsan56	IN	A	192.168.100.56
+; vSphere 7
+; General compute cluster
+dc1vcsa70	IN	A	192.168.100.70
+dc1esxi71	IN	A	192.168.100.71
+dc1esxi72	IN	A	192.168.100.72
+dc1esxi73	IN	A	192.168.100.73
+dc1esxi74	IN	A	192.168.100.74
+dc1esxi75	IN	A	192.168.100.75
+dc1esxi76	IN	A	192.168.100.76
