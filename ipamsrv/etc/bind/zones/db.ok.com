@@ -17,11 +17,9 @@ $TTL	604800
 ipamsrv		IN	A	192.168.86.11
 ipamsrvone	IN	A	192.168.100.11
 ipamsrvtwo	IN	A	192.168.200.11
-freenas		IN	A	192.168.86.12
-freenasone	IN	A	192.168.100.12
-freenastwo	IN	A	192.168.200.12
-watcherone	IN	A	192.168.100.12
-watchertwo	IN	A	192.168.200.12
+bastion		IN	A	192.168.86.12
+bastionone	IN	A	192.168.100.12
+bastiontwo	IN	A	192.168.200.12
 ; VCF 
 vcf1cb20	IN	A	192.168.100.20
 vcf1esxi21	IN	A	192.168.100.21
