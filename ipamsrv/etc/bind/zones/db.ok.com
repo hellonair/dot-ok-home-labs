@@ -28,12 +28,6 @@ vcf1esxi23	IN	A	192.168.100.23
 vcf1esxi24	IN	A	192.168.100.24
 vcf1esxi25	IN	A	192.168.100.25
 vcf1esxi26	IN	A	192.168.100.26
-; General compute cluster
-dc1vcsa40	IN	A	192.168.100.40
-dc1esxi41	IN	A	192.168.100.41
-dc1esxi42	IN	A	192.168.100.42
-dc1esxi43	IN	A	192.168.100.43
-dc1esxi44	IN	A	192.168.100.44
 ; vSAN cluster
 dc1vsan51	IN	A	192.168.100.51
 dc1vsan52	IN	A	192.168.100.52
@@ -41,6 +35,17 @@ dc1vsan53	IN	A	192.168.100.53
 dc1vsan54	IN	A	192.168.100.54
 dc1vsan55	IN	A	192.168.100.55
 dc1vsan56	IN	A	192.168.100.56
+; General compute cluster
+dc1vcsa60	IN	A	192.168.100.60
+dc1esxi61	IN	A	192.168.100.61
+dc1esxi62	IN	A	192.168.100.62
+dc1esxi63	IN	A	192.168.100.63
+; General compute cluster
+dc1vcsa40	IN	A	192.168.100.40
+dc1esxi41	IN	A	192.168.100.41
+dc1esxi42	IN	A	192.168.100.42
+dc1esxi43	IN	A	192.168.100.43
+dc1esxi44	IN	A	192.168.100.44
 ; vSphere 7
 dc1vcsa70	IN	A	192.168.100.70
 dc1esxi71	IN	A	192.168.100.71
