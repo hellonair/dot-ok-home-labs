@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ipamsrv.ok. root.ipamsrv.ok. (
-			     13		; Serial
+			     14		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -26,17 +26,17 @@ $TTL	604800
 24.100	IN      PTR     vcf1esxi24.ok.
 25.100	IN      PTR     vcf1esxi25.ok.
 26.100	IN      PTR     vcf1esxi26.ok.
-40.100	IN	PTR	dc1vcsa40.ok.
-41.100	IN	PTR	dc1esxi41.ok.
-42.100	IN	PTR	dc1esxi42.ok.
-43.100	IN	PTR	dc1esxi43.ok.
-44.100	IN	PTR	dc1esxi44.ok.
 51.100	IN      PTR     dc1vsan51.ok.
 52.100	IN      PTR     dc1vsan52.ok.
 53.100	IN      PTR     dc1vsan53.ok.
 54.100	IN      PTR     dc1vsan54.ok.
 55.100	IN      PTR     dc1vsan55.ok.
 56.100	IN      PTR     dc1vsan56.ok.
+60.100	IN	PTR	dc1vcsa60.ok.
+61.100	IN	PTR	dc1esxi61.ok.
+62.100	IN	PTR	dc1esxi62.ok.
+63.100	IN	PTR	dc1esxi63.ok.
+64.100	IN	PTR	dc1esxi64.ok.
 70.100	IN	PTR	dc1vcsa70.ok.
 71.100	IN	PTR	dc1esxi71.ok.
 72.100	IN	PTR	dc1esxi72.ok.
