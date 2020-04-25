@@ -3,7 +3,8 @@ This repository contains all the scripts and metadata to rebuild my home lab.  T
 
 IPAM Server Build
   - runs infrastructure services
-      - DNS and NTP Service
+      - DNS
+      - NTP
   - DNS entries
       - vSphere Cluster
 Bastion Server
