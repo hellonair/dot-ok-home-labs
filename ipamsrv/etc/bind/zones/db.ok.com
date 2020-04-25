@@ -20,15 +20,10 @@ ipamsrvtwo	IN	A	192.168.200.11
 bastion		IN	A	192.168.86.12
 bastionone	IN	A	192.168.100.12
 bastiontwo	IN	A	192.168.200.12
-; VCF 
+; VCF 20-49 Reserved
 vcf1cb20	IN	A	192.168.100.20
-vcf1esxi21	IN	A	192.168.100.21
-vcf1esxi22	IN	A	192.168.100.22
-vcf1esxi23	IN	A	192.168.100.23
-vcf1esxi24	IN	A	192.168.100.24
-vcf1esxi25	IN	A	192.168.100.25
-vcf1esxi26	IN	A	192.168.100.26
 ; vSAN cluster
+dc1vcsa50	IN	A	192.168.100.50
 dc1vsan51	IN	A	192.168.100.51
 dc1vsan52	IN	A	192.168.100.52
 dc1vsan53	IN	A	192.168.100.53
@@ -37,9 +32,8 @@ dc1vsan55	IN	A	192.168.100.55
 dc1vsan56	IN	A	192.168.100.56
 ; General compute cluster
 dc1vcsa60	IN	A	192.168.100.60
-dc1esxi61	IN	A	192.168.100.61
-dc1esxi62	IN	A	192.168.100.62
-dc1esxi63	IN	A	192.168.100.63
+dc1vcsa65	IN	A	192.168.100.65
+dc1vcsa67	IN	A	192.168.100.67
 ; General compute cluster
 dc1vcsa40	IN	A	192.168.100.40
 dc1esxi41	IN	A	192.168.100.41
@@ -54,3 +48,6 @@ dc1esxi73	IN	A	192.168.100.73
 dc1esxi74	IN	A	192.168.100.74
 dc1esxi75	IN	A	192.168.100.75
 dc1esxi76	IN	A	192.168.100.76
+; Beta
+dc1vcsa80	IN	A	192.168.100.80
+dc1vcsa90	IN	A	192.168.100.90
