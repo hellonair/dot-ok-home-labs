@@ -20,12 +20,7 @@ $TTL	604800
 12.100	IN      PTR     bastionone.ok.
 12.200	IN      PTR     bastiontwo.ok.
 20.100	IN      PTR     vcf1cb20.ok.
-21.100	IN      PTR     vcf1esxi21.ok.
-22.100	IN      PTR     vcf1esxi22.ok.
-23.100	IN      PTR     vcf1esxi23.ok.
-24.100	IN      PTR     vcf1esxi24.ok.
-25.100	IN      PTR     vcf1esxi25.ok.
-26.100	IN      PTR     vcf1esxi26.ok.
+50.100	IN      PTR     dc1vcsa50.ok.
 51.100	IN      PTR     dc1vsan51.ok.
 52.100	IN      PTR     dc1vsan52.ok.
 53.100	IN      PTR     dc1vsan53.ok.
@@ -33,10 +28,8 @@ $TTL	604800
 55.100	IN      PTR     dc1vsan55.ok.
 56.100	IN      PTR     dc1vsan56.ok.
 60.100	IN	PTR	dc1vcsa60.ok.
-61.100	IN	PTR	dc1esxi61.ok.
-62.100	IN	PTR	dc1esxi62.ok.
-63.100	IN	PTR	dc1esxi63.ok.
-64.100	IN	PTR	dc1esxi64.ok.
+65.100	IN	PTR	dc1vcsa65.ok.
+67.100	IN	PTR	dc1vcsa67.ok.
 70.100	IN	PTR	dc1vcsa70.ok.
 71.100	IN	PTR	dc1esxi71.ok.
 72.100	IN	PTR	dc1esxi72.ok.
@@ -44,3 +37,5 @@ $TTL	604800
 74.100	IN	PTR	dc1esxi74.ok.
 75.100	IN	PTR	dc1esxi75.ok.
 76.100	IN	PTR	dc1esxi76.ok.
+80.100	IN	PTR	dc1esxi80.ok.
+90.100	IN	PTR	dc1esxi90.ok.
