@@ -1,0 +1,6 @@
+{
+    "vcsa" : "dc1vcsa70.ok",
+    "clusterName" : "v7compute",
+	"dataCenter" : "dc1",
+    "hosts" : ["dc1esxi71.ok", "dc1esxi72.ok", "dc1esxi73.ok", "dc1esxi74.ok", "dc1esxi75.ok", "dc1esxi76.ok"]
+}

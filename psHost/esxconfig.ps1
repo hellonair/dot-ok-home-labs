@@ -46,7 +46,7 @@ $fqdn=$hostname+'.'+$domain
 Write-Host "The host is running on IP Address $oldip"  -ForegroundColor Green
 Write-Host "New hostnmae given is $hostname" -ForegroundColor Green
 $dnsrecord = Resolve-DnsName -Name $fqdn -Server $ipamsrv -Type A
-$ipaddress = $dnsrecord.IPAddress[0]
+$ipaddress = $dnsrecord.IPAddress
 Write-Host "The new IP address as DNS record is $ipaddress" -ForegroundColor Green
 
 #Connect to host with old IP and configure networking
