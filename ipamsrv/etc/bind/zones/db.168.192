@@ -29,6 +29,7 @@ $TTL	604800
 56.100	IN      PTR     dc1vsan56.ok.
 60.100	IN	PTR	dc1vcsa60.ok.
 65.100	IN	PTR	dc1vcsa65.ok.
+69.100	IN	PTR	dc1vrlogin.ok.
 67.100	IN	PTR	dc1vcsa67.ok.
 70.100	IN	PTR	dc1vcsa70.ok.
 71.100	IN	PTR	dc1esxi71.ok.
