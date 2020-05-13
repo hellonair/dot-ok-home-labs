@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ipamsrv.ok. root.ipamsrv.ok. (
-			     15		; Serial
+			     16		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -22,6 +22,9 @@ bastionone	IN	A	192.168.100.12
 bastiontwo	IN	A	192.168.200.12
 ; VCF 20-49 Reserved
 vcf1cb20	IN	A	192.168.100.20
+; Test cluster
+dc1esxi41	IN	A	192.168.100.41
+dc1esxi42	IN	A	192.168.100.42
 ; vSAN cluster
 dc1vcsa50	IN	A	192.168.100.50
 dc1vsan51	IN	A	192.168.100.51
