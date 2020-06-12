@@ -32,6 +32,8 @@ $TTL	604800
 60.100	IN	PTR	dc1vcsa60.ok.
 65.100	IN	PTR	dc1vcsa65.ok.
 67.100	IN	PTR	dc1vcsa67.ok.
+68.100	IN	PTR	dc1esxi68.ok.
+69.100	IN	PTR	dc1esxi69.ok.
 70.100	IN	PTR	dc1vcsa70.ok.
 71.100	IN	PTR	dc1esxi71.ok.
 72.100	IN	PTR	dc1esxi72.ok.
