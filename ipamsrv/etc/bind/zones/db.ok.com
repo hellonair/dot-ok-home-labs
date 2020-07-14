@@ -2,8 +2,8 @@
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	ipamsrv.ok. root.ipamsrv.ok. (
-			     18		; Serial
+@	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
+			     19		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -12,7 +12,7 @@ $TTL	604800
 @	IN	NS	localhost.
 @	IN	A	127.0.0.1
 @	IN	AAAA	::1
-		IN	NS	ipamsrv.ok.
+		IN	NS	ipamsrv.ok.com.
 ; Command Center ( 2 to 19 )
 ipamsrv		IN	A	192.168.86.11
 ipamsrvone	IN	A	192.168.100.11
