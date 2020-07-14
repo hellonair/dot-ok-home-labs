@@ -2,7 +2,7 @@
 ; BIND reverse data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	ipamsrv.ok. root.ipamsrv.ok. (
+@	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
 			     18		; Serial
 			 604800		; Refresh
 			  86400		; Retry
@@ -12,41 +12,41 @@ $TTL	604800
 @	IN	NS	localhost.
 @	IN 	A	127.0.0.1
 @	IN	AAAA	::1
-	IN	NS	ipamsrv.ok.
-11.86	IN      PTR     ipamsrv.ok.
-11.100	IN      PTR     ipamsrvone.ok.
-11.200	IN	PTR	ipamsrvtwo.ok.
-12.86	IN	PTR	bastion.ok.	
-12.100	IN      PTR     bastionone.ok.
-12.200	IN      PTR     bastiontwo.ok.
-13.100	IN      PTR     freenasone.ok.
-13.200	IN      PTR     freenastwo.ok.
-20.100	IN      PTR     dc1cb20.ok.
-20.200	IN      PTR     dc2cb20.ok.
-41.100	IN	PTR	dc1esxi41.ok
-42.100	IN	PTR	dc1esxi42.ok
-50.100	IN      PTR     dc1vcsa50.ok.
-51.100	IN      PTR     dc1vsan51.ok.
-52.100	IN      PTR     dc1vsan52.ok.
-53.100	IN      PTR     dc1vsan53.ok.
-54.100	IN      PTR     dc1vsan54.ok.
-55.100	IN      PTR     dc1vsan55.ok.
-56.100	IN      PTR     dc1vsan56.ok.
-60.100	IN	PTR	dc1vcsa60.ok.
-65.100	IN	PTR	dc1vcsa65.ok.
-67.100	IN	PTR	dc1vcsa67.ok.
-68.100	IN	PTR	dc1esxi68.ok.
-69.100	IN	PTR	dc1esxi69.ok.
-70.100	IN	PTR	dc1vcsa70.ok.
-71.100	IN	PTR	dc1esxi71.ok.
-72.100	IN	PTR	dc1esxi72.ok.
-73.100	IN	PTR	dc1esxi73.ok.
-74.100	IN	PTR	dc1esxi74.ok.
-75.100	IN	PTR	dc1esxi75.ok.
-76.100	IN	PTR	dc1esxi76.ok.
-77.100	IN	PTR	dc1vro77.ok.
-78.100	IN	PTR	dc1esxi78.ok.
-79.100	IN	PTR	dc1esxi79.ok.
-80.100	IN	PTR	dc1esxi80.ok.
-89.100	IN	PTR	dc1vrli89.ok.
-90.100	IN	PTR	dc1esxi90.ok.
+	IN	NS	ipamsrv.ok.com.
+11.86	IN      PTR     ipamsrv.ok.com.
+11.100	IN      PTR     ipamsrvone.ok.com.
+11.200	IN	PTR	ipamsrvtwo.ok.com.
+12.86	IN	PTR	bastion.ok.com.	
+12.100	IN      PTR     bastionone.ok.com.
+12.200	IN      PTR     bastiontwo.ok.com.
+13.100	IN      PTR     freenasone.ok.com.
+13.200	IN      PTR     freenastwo.ok.com.
+20.100	IN      PTR     dc1cb20.ok.com.
+20.200	IN      PTR     dc2cb20.ok.com.
+41.100	IN	PTR	dc1esxi41.ok.com
+42.100	IN	PTR	dc1esxi42.ok.com
+50.100	IN      PTR     dc1vcsa50.ok.com.
+51.100	IN      PTR     dc1vsan51.ok.com.
+52.100	IN      PTR     dc1vsan52.ok.com.
+53.100	IN      PTR     dc1vsan53.ok.com.
+54.100	IN      PTR     dc1vsan54.ok.com.
+55.100	IN      PTR     dc1vsan55.ok.com.
+56.100	IN      PTR     dc1vsan56.ok.com.
+60.100	IN	PTR	dc1vcsa60.ok.com.
+65.100	IN	PTR	dc1vcsa65.ok.com.
+67.100	IN	PTR	dc1vcsa67.ok.com.
+68.100	IN	PTR	dc1esxi68.ok.com.
+69.100	IN	PTR	dc1esxi69.ok.com.
+70.100	IN	PTR	dc1vcsa70.ok.com.
+71.100	IN	PTR	dc1esxi71.ok.com.
+72.100	IN	PTR	dc1esxi72.ok.com.
+73.100	IN	PTR	dc1esxi73.ok.com.
+74.100	IN	PTR	dc1esxi74.ok.com.
+75.100	IN	PTR	dc1esxi75.ok.com.
+76.100	IN	PTR	dc1esxi76.ok.com.
+77.100	IN	PTR	dc1vro77.ok.com.
+78.100	IN	PTR	dc1esxi78.ok.com.
+79.100	IN	PTR	dc1esxi79.ok.com.
+80.100	IN	PTR	dc1esxi80.ok.com.
+89.100	IN	PTR	dc1vrli89.ok.com.
+90.100	IN	PTR	dc1esxi90.ok.com.
