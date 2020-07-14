@@ -22,9 +22,10 @@ bastionone	IN	A	192.168.100.12
 bastiontwo	IN	A	192.168.200.12
 freenasone	IN	A	192.168.100.13
 freenastwo	IN	A	192.168.200.13
-; VCF 20-49 Reserved
-dc1cb10		IN	A	192.168.100.10
-dc1cb20		IN	A	192.168.100.20
+; VCF 20-30 vRealize
+dc1vlcm20	IN	A	192.168.100.20
+dc1vidm21	IN	A	192.168.100.21
+dc1vran22	IN	A	192.168.100.22	
 ; General compute cluster
 dc1vcsa40	IN	A	192.168.100.40
 dc1esxi41	IN	A	192.168.100.41
