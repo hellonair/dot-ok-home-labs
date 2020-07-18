@@ -21,6 +21,8 @@ $TTL	604800
 12.200	IN      PTR     bastiontwo.ok.com.
 13.100	IN      PTR     freenasone.ok.com.
 13.200	IN      PTR     freenastwo.ok.com.
+14.100	IN	PTR	windc14.ok.com.
+15.100	IN	PTR	windc15.ok.com.
 20.100	IN	PTR	dc1vlcm20.ok.com.
 21.100	IN	PTR	dc1vidm21.ok.com.
 22.100	IN	PTR	dc1vran22.ok.com.
