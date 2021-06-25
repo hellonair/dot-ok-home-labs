@@ -65,5 +65,11 @@ $TTL	604800
 90.100	IN	PTR	dc1esxi90.ok.com.
 101.100	IN	PTR	dummyone.ok.com.
 102.100 IN	PTR	dummytwo.ok.com.
+111.100 IN	PTR	shone.ok.com.
+112.100	IN	PTR	shtwo.ok.com.
+113.100	IN	PTR	shthree.ok.com
+121.100	IN	PTR	indexone.ok.com
+122.100	IN	PTR	indextwo.ok.com
+123.100	IN	PTR	indexthree.ok.com
 201.100 IN	PTR	windone.ok.com.
 202.100 IN	PTR	windtwo.ok.com.
