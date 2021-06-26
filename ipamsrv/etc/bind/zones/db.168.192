@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
-			     32		; Serial
+			     33		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -65,6 +65,7 @@ $TTL	604800
 90.100	IN	PTR	dc1esxi90.ok.com.
 101.100	IN	PTR	dummyone.ok.com.
 102.100 IN	PTR	dummytwo.ok.com.
+110.100	IN	PTR	deployer.ok.com.
 111.100 IN	PTR	shone.ok.com.
 112.100	IN	PTR	shtwo.ok.com.
 113.100	IN	PTR	shthree.ok.com.
