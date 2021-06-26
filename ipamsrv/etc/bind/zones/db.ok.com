@@ -75,6 +75,7 @@ dc1vrli89	IN	A	192.168.100.89
 dc1vcsa90	IN	A	192.168.100.90
 dummyone	IN	A	192.168.100.101
 dummytwo	IN	A	192.168.100.102
+deployer	IN	A	192.168.100.110
 shone		IN	A	192.168.100.111
 shtwo		IN	A	192.168.100.112
 shthree		IN	A	192.168.100.113
