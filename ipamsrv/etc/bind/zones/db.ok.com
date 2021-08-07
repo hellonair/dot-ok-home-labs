@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
-			     32		; Serial
+			     33		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -26,6 +26,7 @@ dc1win14	IN	A	192.168.100.14
 dc1win15	IN	A	192.168.100.15
 splunkone	IN	A	192.168.100.16
 splunkfwd	IN	A	192.168.100.17
+splunkhfwd	IN	A	192.168.100.18
 ; VCF 20-30 vRealize
 dc1vlcm20	IN	A	192.168.100.20
 dc1vidm21	IN	A	192.168.100.21
