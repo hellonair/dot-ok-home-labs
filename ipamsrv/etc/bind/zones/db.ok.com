@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
-			     33		; Serial
+			     35		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -85,3 +85,12 @@ indextwo	IN	A	192.168.100.122
 indexthree	IN	A	192.168.100.123
 windone		IN	A	192.168.100.201
 windtwo		IN	A	192.168.100.202
+rancher1	IN	A	192.168.100.211
+rancher2	IN	A	192.168.100.212
+rancher3	IN	A	192.168.100.213
+cnode1		IN	A	192.168.100.221
+cnode2		IN	A	192.168.100.222
+cnode3		IN	A	192.168.100.223
+wnode1		IN	A	192.168.100.231
+wnode2		IN	A	192.168.100.232
+wnode3		IN	A	192.168.100.233
