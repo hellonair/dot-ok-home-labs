@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ipamsrv.ok.com. root.ipamsrv.ok.com. (
-			     34		; Serial
+			     35		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -75,3 +75,12 @@ $TTL	604800
 123.100	IN	PTR	indexthree.ok.com.
 201.100 IN	PTR	windone.ok.com.
 202.100 IN	PTR	windtwo.ok.com.
+211.100 IN	PTR	rancher1.ok.com.
+212.100 IN	PTR	rancher2.ok.com.
+213.100 IN	PTR	rancher3.ok.com.
+221.100 IN	PTR	cnode1.ok.com.
+222.100 IN	PTR	cnode2.ok.com.
+223.100 IN	PTR	cnode3.ok.com.
+231.100 IN	PTR	wnode1.ok.com.
+232.100 IN	PTR	wnode2.ok.com.
+233.100 IN	PTR	wnode3.ok.com.
