@@ -1,0 +1,17 @@
+#!/bin/bash
+HOST=192.168.100.221
+USER="admin"
+PASS="admin"
+CMD="cp /etc/passwd /tmp/passwd"
+
+REMOTEEXEC=$(expect -c "
+spawn ssh $USER@$HOST
+expect \"password:\"
+send \"$PASS\r\"
+expect \"\\\\$\"
+send \"$CMD\r\"
+expect -re \"$USER.*\"
+send \"logout\"
+")
+
+echo "$REMOTEEXEC"
