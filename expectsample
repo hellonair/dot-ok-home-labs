@@ -1,10 +1,9 @@
+USER="admin"
+PASS="admin"
+CMD="cp /etc/passwd /tmp/passwd"
 while read -r HOST;
 do
         echo "$HOST" ;
-        USER="admin"
-        PASS="admin"
-        CMD="cp /etc/passwd /tmp/passwd"
-
         REMOTEEXEC=$(expect -c "
         spawn ssh $USER@$HOST
         expect \"password:\"
