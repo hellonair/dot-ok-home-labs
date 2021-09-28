@@ -1,0 +1,15 @@
+import os
+def run(cmd,*args):
+    pid, fd = os.forkpty()
+    if pid==0: # child
+        os.execlp(cmd,*args)
+    while True:
+        data = os.read(fd,1024)
+        print(data)
+        if "password:" in data:    # ssh prompt
+            os.write(fd,"admin\n")
+        elif data.endswith("$ "):  # bash prompt for input
+            os.write(fd,"cp /etc/passwd /tmp/passwd\n")
+            os.write(fd,"exit\n")
+
+run("ssh", "ssh", "admin@192.168.100.221")
