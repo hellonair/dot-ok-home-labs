@@ -7,7 +7,7 @@
 //include "/etc/bind/zones.rfc1918";
 zone "ok.com" IN {
     type master;
-    file "/etc/bind/zones/db.ok.com";
+    file "/etc/bind/zones/db.example.com";
 };
 
 zone "168.192.in-addr.arpa" IN {
