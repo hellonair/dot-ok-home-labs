@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ipamsrv.example.com. root.ipamsrv.example.com. (
-			     36		; Serial
+			     37		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
