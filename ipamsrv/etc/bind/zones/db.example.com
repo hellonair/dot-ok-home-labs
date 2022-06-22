@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ipamsrv.example.com. root.ipamsrv.example.com. (
-			     37		; Serial
+			     40		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -32,6 +32,7 @@ dc1vlcm20	IN	A	192.168.100.20
 dc1vidm21	IN	A	192.168.100.21
 dc1vran22	IN	A	192.168.100.22
 skyline01	IN	A	192.168.100.23
+grafana01	IN	A	192.168.100.24
 ; General compute cluster
 dc1vcsa40	IN	A	192.168.100.40
 dc1esxi41	IN	A	192.168.100.41
