@@ -33,6 +33,7 @@ dc1vidm21	IN	A	192.168.100.21
 dc1vran22	IN	A	192.168.100.22
 skyline01	IN	A	192.168.100.23
 grafana01	IN	A	192.168.100.24
+vmwaretig	IN	A	192.168.100.25
 ; General compute cluster
 dc1vcsa40	IN	A	192.168.100.40
 dc1esxi41	IN	A	192.168.100.41
