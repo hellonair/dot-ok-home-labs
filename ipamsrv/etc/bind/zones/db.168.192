@@ -31,7 +31,7 @@ $TTL	604800
 22.100	IN	PTR	dc1vran22.example.com.
 23.100	IN	PTR	skyline01.example.com.
 24.100	IN	PTR	grafana01.example.com.
-25.100	IN	PTR	vmwaretig.example.com.
+25.100	IN	PTR	dc1tig01.example.com.
 41.100	IN	PTR	dc1esxi41.example.com
 42.100	IN	PTR	dc1esxi42.example.com
 50.100	IN      PTR     dc1vcsa50.example.com.
@@ -66,6 +66,7 @@ $TTL	604800
 82.100	IN	PTR	dc1vro82.example.com.
 89.100	IN	PTR	dc1vrli89.example.com.
 90.100	IN	PTR	dc1esxi90.example.com.
+100.100	IN	PTR	waterspider.example.com.
 101.100	IN	PTR	dummyone.example.com.
 102.100 IN	PTR	dummytwo.example.com.
 110.100	IN	PTR	deployer.example.com.

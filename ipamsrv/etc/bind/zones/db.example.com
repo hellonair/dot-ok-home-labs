@@ -33,7 +33,7 @@ dc1vidm21	IN	A	192.168.100.21
 dc1vran22	IN	A	192.168.100.22
 skyline01	IN	A	192.168.100.23
 grafana01	IN	A	192.168.100.24
-vmwaretig	IN	A	192.168.100.25
+dc1tig01	IN	A	192.168.100.25
 ; General compute cluster
 dc1vcsa40	IN	A	192.168.100.40
 dc1esxi41	IN	A	192.168.100.41
@@ -76,6 +76,7 @@ dc1vcsa80	IN	A	192.168.100.80
 dc1vro82	IN	A	192.168.100.82
 dc1vrli89	IN	A	192.168.100.89
 dc1vcsa90	IN	A	192.168.100.90
+waterspider	IN	A	192.168.100.100
 dummyone	IN	A	192.168.100.101
 dummytwo	IN	A	192.168.100.102
 deployer	IN	A	192.168.100.110
